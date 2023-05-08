@@ -1,6 +1,6 @@
-# Java入門 演習問題
+# Java入門 追加演習
 
-exJavaBasicフォルダを作成し、各演習のJavaファイルを作成、実行しなさい。
+java_basic_exフォルダを作成し、各演習のJavaファイルを作成、実行しなさい。
 
 <br>
 
