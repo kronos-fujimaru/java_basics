@@ -25,8 +25,8 @@ class ex01 {
 ```java
 class ex02 {
     public static void main(String[] args) {
-        System.out.println("点数：" + args[0] + "点");
-        int score = Integer.parseInt(args[0]);
+        int score = 80;
+        System.out.println("点数：" + score + "点");
 
         if (score >= 80) {
             System.out.println("優良");
@@ -48,7 +48,7 @@ class ex02 {
 ```java
 class ex03 {
     public static void main(String[] args) {
-        int num = Integer.parseInt(args[0]);
+        int num = 231;
 
         if (num % 3 == 0) {
             System.out.println("3の倍数");
@@ -73,10 +73,10 @@ class ex03 {
 ```java
 class ex04 {
     public static void main(String[] args) {
-        int age = Integer.parseInt(args[0]);
-        int card = Integer.parseInt(args[1]);
+        int age = 25;
+        int license = 1;
 
-        if (age < 20 || card == 1) {
+        if (age < 20 || license == 1) {
             System.out.println("1200円");
         } else if (age >= 65) {
             System.out.println("1500円");
@@ -256,8 +256,9 @@ class ex13 {
 ```java
 class ex14 {
     public static void main(String[] args) {
+        int[] numStars = {8, 4, 10, 6};
         for (int i = 0; i < args.length; i++) {
-            for (int j = 0; j < Integer.parseInt(args[i]); j++) {
+            for (int j = 0; j < numStars[i]; j++) {
                 System.out.print("★");
             }
             System.out.println();
